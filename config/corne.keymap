@@ -27,13 +27,13 @@
                 };
                 lower_layer {
 // -----------------------------------------------------------------------------------------
-// |  TAB |  1   |  2  |  3  |  4  |  5  |   |  6  |  7   |  8  |  9  |  0  | BKSP |
-// |      | BT1  | BT2 | BT3 | BT4 | BT5 |   |     |      |  UP |     |     |      |
-// | SHFT | GUI  |     |     |     |     |   |     |  LFT | DWN | RGT |     |      |
-//                    | CTRL | SPC  |     |   |     | ENT  | ALT |
+// |  TAB |  1   |  2  |  3  |  4  |   5   |   |  6  |  7   |  8  |  9  |  0  | BKSP |
+// |      | BT1  | BT2 | BT3 | BT4 | CLEAR |   |     |      |  UP |     |     |      |
+// | SHFT | GUI  |     |     |     |       |   |     |  LFT | DWN | RGT |     |      |
+//                    | CTRL | SPC |       |   |     | ENT  | ALT |
                         bindings = <
    &kp TAB    &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6     &kp N7     &kp N8    &kp N9    &kp N0  &kp BSPC
-   &trans     &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &trans     &trans     &kp UP    &trans    &trans  &trans
+   &trans     &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_CLR   &trans     &trans     &kp UP    &trans    &trans  &trans
    &kp LSHFT  &kp LGUI    &trans       &trans       &trans       &trans         &kp N6     &kp LEFT   &kp DOWN  &kp RIGHT &trans  &trans
                                     &kp LCTRL            &kp SPACE  &trans    &trans &kp RET     &kp RALT
                         >;
@@ -54,3 +54,4 @@
            };
         };
 };
+testtesttestsetthisthis is a test of keyboard. there was  a slight hiccup with connectivity but that seems to have resolved itselft
