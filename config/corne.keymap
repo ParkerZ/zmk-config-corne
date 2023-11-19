@@ -42,7 +42,7 @@
 //  --------- --------- --------- --------- --------- ---------     --------- --------- --------- --------- --------- ---------
 // |         |         |         |         |         |         |   |         |         |         |         |         |         |
 // |         |   BT1   |   BT2   |   BT3   |         |  CLEAR  |   |         |         |    UP   |         |         |         |
-      &none &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL &none &bt BT_CLR     &none     &none     &kp UP    &none     &none     &none
+    &none &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &none &bt BT_CLR     &none     &none     &kp UP    &none     &none     &none
 //  --------- --------- --------- --------- --------- ---------     --------- --------- --------- --------- --------- ---------
 // |         |         |         |         |         |         |   |         |         |         |         |         |         |
 // |         |   GUI   |   ESC   |   TAB   |         |         |   |         |    LFT  |   DWN   |   RGT   |         |         |
@@ -63,12 +63,12 @@
       &none    &kp EXCL  &kp AT    &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS &kp KP_MULTIPLY &kp LPAR &kp RPAR &none
 //  --------- --------- --------- --------- --------- ---------     --------- --------- --------- --------- --------- ---------
 // |         |         |         |         |         |         |   |         |         |         |         |         |         |
-// |    `    |    /    |    \    |    ;    |         |         |   |    -    |    =    |    [    |    ]    |    '    |         |
-    &kp GRAVE  &kp FSLH  &kp BSLH  &kp SEMI   &none     &none       &kp MINUS &kp EQUAL  &kp LBKT  &kp RBKT  &kp SQT    &none
+// |         |    `    |    /    |    \    |    ;    |         |   |    -    |    =    |    [    |    ]    |    '    |         |
+      &none   &kp GRAVE  &kp FSLH  &kp BSLH  &kp SEMI   &none       &kp MINUS &kp EQUAL  &kp LBKT  &kp RBKT  &kp SQT    &none
 //  --------- --------- --------- --------- --------- ---------     --------- --------- --------- --------- --------- ---------
 // |         |         |         |         |         |         |   |         |         |         |         |         |         |
-// |    ~    |    ?    |   "|"   |    :    |         |         |   |    _    |    +    |    {    |    }    |    "    |         |
-    &kp TILDE &kp QMARK  &kp PIPE &kp COLON   &none     &none       &kp UNDER  &kp PLUS  &kp LBRC  &kp RBRC  &kp DQT    &none
+// |         |    ~    |    ?    |   "|"   |    :    |         |   |    _    |    +    |    {    |    }    |    "    |         |
+      &none   &kp TILDE &kp QMARK  &kp PIPE &kp COLON   &none            &kp UNDER  &kp PLUS  &kp LBRC  &kp RBRC  &kp DQT    &none
 //  --------- --------- --------- --------- --------- ---------     --------- --------- --------- --------- --------- ---------
 //                               |         |         |         |   |         |         |         |
 //                               |   CTRL  |   SPC   |         |   |         |   ENT   |   ALT   |
