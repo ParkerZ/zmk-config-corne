@@ -63,12 +63,12 @@
       &none    &kp EXCL  &kp AT    &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS &kp KP_MULTIPLY &kp LPAR &kp RPAR &none
 //  --------- --------- --------- --------- --------- ---------     --------- --------- --------- --------- --------- ---------
 // |         |         |         |         |         |         |   |         |         |         |         |         |         |
-// |    `    |    /    |    \    |    ;    |         |         |   |    -    |    =    |    [    |    ]    |    "    |         |
-    &kp GRAVE  &kp FSLH  &kp BSLH  &kp SEMI   &none     &none       &kp MINUS &kp EQUAL  &kp LBKT  &kp RBKT  &kp DQT    &none
+// |    `    |    /    |    \    |    ;    |         |         |   |    -    |    =    |    [    |    ]    |    '    |         |
+    &kp GRAVE  &kp FSLH  &kp BSLH  &kp SEMI   &none     &none       &kp MINUS &kp EQUAL  &kp LBKT  &kp RBKT  &kp SQT    &none
 //  --------- --------- --------- --------- --------- ---------     --------- --------- --------- --------- --------- ---------
 // |         |         |         |         |         |         |   |         |         |         |         |         |         |
-// |    ~    |    ?    |   "|"   |    :    |         |         |   |    _    |    +    |    {    |    }    |    '    |         |
-    &kp TILDE &kp QMARK  &kp PIPE &kp COLON   &none     &none       &kp UNDER  &kp PLUS  &kp LBRC  &kp RBRC  &kp SQT    &none
+// |    ~    |    ?    |   "|"   |    :    |         |         |   |    _    |    +    |    {    |    }    |    "    |         |
+    &kp TILDE &kp QMARK  &kp PIPE &kp COLON   &none     &none       &kp UNDER  &kp PLUS  &kp LBRC  &kp RBRC  &kp DQT    &none
 //  --------- --------- --------- --------- --------- ---------     --------- --------- --------- --------- --------- ---------
 //                               |         |         |         |   |         |         |         |
 //                               |   CTRL  |   SPC   |         |   |         |   ENT   |   ALT   |
