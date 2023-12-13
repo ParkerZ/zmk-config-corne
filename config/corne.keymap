@@ -53,8 +53,8 @@
       &none     &none     &kp A     &kp S     &kp D     &none         &none     &none     &none     &none     &none     &none
 //  --------- --------- --------- --------- --------- ---------     --------- --------- --------- --------- --------- ---------
 // |         |         |         |         |         |         |   |         |         |         |         |         |         |
-// |         |  SHIFT  |         |         |         |         |   |         |         |         |         |         |         |
-      &none   &kp LSHFT   &none     &none     &none     &none         &none     &none     &none     &none     &none     &none
+// |         |  SHIFT  |         |         |         |    G    |   |         |         |         |         |         |         |
+      &none   &kp LSHFT   &none     &none     &none     &kp g         &none     &none     &none     &none     &none     &none
 //  --------- --------- --------- --------- --------- ---------     --------- --------- --------- --------- --------- ---------
 //                               |         |         |         |   |         |         |         |
 //                               |   CTRL  |   SPC   |   NUM   |   |   FUN   |   ENT   |   ALT   |
